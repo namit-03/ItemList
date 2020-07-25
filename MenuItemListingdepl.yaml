@@ -13,7 +13,7 @@ spec:
         app: MenuItemListingWebApi
     spec:
       containers:
-      - name: menuitemlisting
+      - name: menuitemlistingwebapi
         image: imgcontainer03.azurecr.io/menurepos:latest
         ports:
         - containerPort: 8080
